@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+input {-webkit-font-smoothing: antialiased;}
+
+* {
+  box-sizing: border-box;
+}
+.owl-carousel, 
+.owl-stage-outer,
+.owl-stage,
+.owl-item{
+  height: 100%;
+}
+.owl-carousel .item-video {
+  height: 100%;
+}
+
+.owl-carousel .item-video .owl-video-play-icon {
+  background: url(../images/owl.video.play.png) no-repeat;
+}
