@@ -1,0 +1,26 @@
+npm init
+npm install --save-dev gulp gulp-sass gulp-autoprefixer browser-sync gulp-useref gulp-uglify gulp-if gulp-cssnano gulp-imagemin gulp-cache del run-sequence
+
+npm uninstall --save-dev gulp gulp-sass gulp-autoprefixer browser-sync gulp-useref gulp-uglify gulp-if gulp-cssnano gulp-imagemin gulp-cache del run-sequence
+
+
+
+
+or 
+
+npm init
+
+I copy the devDependencies bit from the package.json of one of my previous projects into 
+my newly created package.json, then I run 
+
+npm i 
+
+which installs all dependencies listed in package.json. 
+It's a huge timesaver, especially since I usually copy my gulpfile.js as well.
+
+Note: don't forget to run 
+
+npm outdated
+
+if it's been a while since your previous project started, 
+to check if any of the dependencies have been updated in the meantime.

@@ -16,15 +16,15 @@ $(document).ready(function(){
     };
 
 
-    $('.owl-dot').click(function(){
-        playVideo();
-    });
+    // $('.owl-dot').click(function(){
+    //     playVideo();
+    // });
 
-    function playVideo(){
-      if ($('.owl-item').hasClass("active")) {
-        $('.owl-item').trigger("click");
-      }
-    };
+    // function playVideo(){
+    //   if ($('.owl-item').hasClass("active")) {
+    //     $('.owl-item').trigger("click");
+    //   }
+    // };
 
 
 });
