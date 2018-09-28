@@ -1,6 +1,6 @@
-#First test with git and gulp together
+#Full screen carousel whith photos and videos#
 
 ---
 
-##My experiments
+##Currently under construction##
 
